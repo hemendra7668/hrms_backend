@@ -14,7 +14,7 @@ Connectdb();
 app.use(
   cors({
         // origin: "http://localhost:5173", // your frontend URL
-    origin: "hrms-neon.vercel.app", // your frontend URL
+    origin: "https://hrms-neon.vercel.app", // your frontend URL
     credentials: true,
   })
 );
