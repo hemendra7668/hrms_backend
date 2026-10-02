@@ -11,7 +11,6 @@ import DashboardRouter from "./routes/dashboard.js";
 const app = express();
 Connectdb();
 // app.use(cors());
-res.send("server cooneccted successfully");
 app.use(
   cors({
         // origin: "http://localhost:5173", // your frontend URL
